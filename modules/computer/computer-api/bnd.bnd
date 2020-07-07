@@ -1,0 +1,11 @@
+Bundle-Name: computer-api
+Bundle-SymbolicName: com.hp.computer.app.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.hp.computer.app.exception,\
+	com.hp.computer.app.model,\
+	com.hp.computer.app.service,\
+	com.hp.computer.app.service.persistence,\
+	com.hp.computer.app.search.field
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../computer-service/service.xml

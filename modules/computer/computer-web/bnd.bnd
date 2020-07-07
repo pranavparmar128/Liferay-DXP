@@ -1,0 +1,4 @@
+Bundle-Name: computer-web
+Bundle-SymbolicName: com.hp.computer.app.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.hp.computer.app.portlet.constants

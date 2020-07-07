@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.hp.computer.app.model.Computer">
+		<field name="uuid" type="String" />
+		<field name="computerId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="company" type="String" />
+		<field name="modelName" type="String" />
+		<field name="operatingSystem" type="String" />
+		<field name="cost" type="double" />
+		<field name="rating" type="int" />
+	</model>
+</model-hints>
