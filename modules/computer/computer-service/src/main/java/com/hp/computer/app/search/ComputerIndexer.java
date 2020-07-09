@@ -108,7 +108,6 @@ public class ComputerIndexer extends BaseIndexer<Computer> {
 	public void postProcessSearchQuery(BooleanQuery searchQuery, BooleanFilter fullQueryBooleanFilter,
 			SearchContext searchContext) throws Exception {
 		
-		addSearchTerm(searchQuery, searchContext, ComputerFields.RATING, false);
 		addSearchTerm(searchQuery, searchContext, ComputerFields.COMPANY, false);
 		addSearchTerm(searchQuery, searchContext, ComputerFields.MODEL_NAME, false);
 		addSearchTerm(searchQuery, searchContext, ComputerFields.OPERATING_SYSTEM, false);
