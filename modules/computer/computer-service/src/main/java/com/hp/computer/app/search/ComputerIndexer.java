@@ -58,6 +58,9 @@ public class ComputerIndexer extends BaseIndexer<Computer> {
 
 		Document document = getBaseModelDocument(CLASS_NAME, computer);
 		
+		// removing username field from indexing document
+		document.remove(Field.USER_NAME);
+		
 		document.addKeyword(Field.ENTRY_CLASS_PK, computer.getComputerId());
 		document.addKeyword(Field.COMPANY_ID, computer.getCompanyId());
 		document.addKeyword(Field.GROUP_ID, computer.getGroupId());
